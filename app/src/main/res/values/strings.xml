@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LMS</string>
+
+
+    <string name="str_onlineClass">کلاس آنلاین</string>
+    <string name="str_jozve">جزوه آموزشی</string>
+    <string name="str_vedio">فیلم آموزشی</string>
+    <string name="str_cal">تقویم آموزشی</string>
+    <string name="str_startTest">شروع آزمون ماه جاری</string>
+    <string name="title_class">کلاس اموزش ICDL</string>
+    <string name="tv_start_onlineClass">شروع کلاس:</string>
+    <string name="tv_time_onlineClass">9:30 الی 15</string>
+    <string name="tv_enterClass_onlineClass">ورود به کلاس</string>
+
+    <string name="tv_row_cal">ردیف</string>
+    <string name="tv_cal_cal">تاریخ</string>
+    <string name="tv_time_cal">زمان</string>
+    <string name="tv_finish_cal">وضعیت</string>
+    <string name="tv_quiz_1_tedt"> مسیر پنجره کنترل پنل کدام است؟</string>
+</resources>

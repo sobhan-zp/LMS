@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_discount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lms.zp.JozveActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:background="@color/material_blue_900"
+                        android:orientation="vertical" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#ffffff"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingRight="15dp">
+
+                        <TextView
+                            android:id="@+id/tv_title_jozve"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="12dp"
+                            android:text="آموزش Icdl "
+                            android:textColor="#555555"
+                            android:textDirection="rtl"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_jozve_row"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/circle_discount"
+                        android:backgroundTint="@color/material_blue_600"
+                        android:elevation="0dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/tv_d_d_precent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="ورود"
+                            android:textColor="#fff"
+                            android:textSize="25sp" />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

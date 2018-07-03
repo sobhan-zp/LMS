@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+
+        <TextView
+            android:id="@+id/tv_title_vedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:text="@string/tv_quiz_1_tedt"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="#F3F3F3">
+
+                <CheckBox
+                    android:id="@+id/cb_gozine_2_test"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_answer_2_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_gozine_2_test"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="55dp"
+                    android:layout_toRightOf="@+id/cb_gozine_2_test"
+                    android:gravity="right"
+                    android:text="گزینه اول"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tv_gozine_2_test"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="الف"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="#F3F3F3">
+
+                <CheckBox
+                    android:id="@+id/cb_gozine_3_test"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_answer_3_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_gozine_3_test"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="55dp"
+                    android:layout_toRightOf="@+id/cb_gozine_3_test"
+                    android:gravity="right"
+                    android:text="گزینه دوم"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tv_gozine_3_test"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="ب"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="#F3F3F3">
+
+
+                <CheckBox
+                    android:id="@+id/cb_gozine_1_test"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_answer_1_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_gozine_1_test"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="55dp"
+                    android:layout_toRightOf="@+id/cb_gozine_1_test"
+                    android:gravity="right"
+                    android:text="گزینه سوم"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tv_gozine_1_test"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="ج"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

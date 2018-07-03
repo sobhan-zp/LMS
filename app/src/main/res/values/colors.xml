@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00579b</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="back_login">#0e0e0e</color>
+    <color name="login_name">#ffffff</color>
+    <color name="border_CircleImageView">#ff0000</color>
+    <color name="colorMustard">#ffffff</color>
+    <color name="colorDuckRed">#7e0105</color>
+    <color name="bg_login">#7e0105</color>
+    <color name="bg_edittext_login">#ffffff</color>
+
+
+
+    <color name="gray">#bebebe</color>
+    <color name="gray_dark">#4b4b4b</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+
+
+    <!-- Indigo -->
+    <color name="material_indigo_500">#4554a4</color>
+    <color name="material_indigo_50">#e7e9f5</color>
+    <color name="material_indigo_100">#c5c9e6</color>
+    <color name="material_indigo_200">#a0a8d4</color>
+    <color name="material_indigo_300">#7a85c1</color>
+    <color name="material_indigo_400">#5e6ab1</color>
+    <color name="material_indigo_600">#3e4da0</color>
+    <color name="material_indigo_700">#33429a</color>
+    <color name="material_indigo_800">#283990</color>
+    <color name="material_indigo_900">#2c2f78</color>
+    <color name="material_indigo_A100">#8e99cc</color>
+    <color name="material_indigo_A200">#586ab1</color>
+    <color name="material_indigo_A400">#4c62ad</color>
+    <color name="material_indigo_A700">#485eab</color>
+
+    <!-- Blue -->
+    <color name="material_blue_500">#478fcc</color>
+    <color name="material_blue_50">#e4f1fb</color>
+    <color name="material_blue_100">#bdddf4</color>
+    <color name="material_blue_200">#95c7ec</color>
+    <color name="material_blue_300">#70b2e1</color>
+    <color name="material_blue_400">#569fd7</color>
+    <color name="material_blue_600">#3d82c4</color>
+    <color name="material_blue_700">#3374ba</color>
+    <color name="material_blue_800">#2a65b0</color>
+    <color name="material_blue_900">#14499e</color>
+    <color name="material_blue_A100">#8caedb</color>
+    <color name="material_blue_A200">#5880c1</color>
+    <color name="material_blue_A400">#4972b8</color>
+    <color name="material_blue_A700">#4666af</color>
+
+    <!-- Light Blue -->
+    <color name="material_light_blue_500">#38a4dc</color>
+    <color name="material_light_blue_50">#e1f3fd</color>
+    <color name="material_light_blue_100">#b4e3fa</color>
+    <color name="material_light_blue_200">#83d2f5</color>
+    <color name="material_light_blue_300">#57c1ee</color>
+    <color name="material_light_blue_400">#43b3e6</color>
+    <color name="material_light_blue_600">#2c97d4</color>
+    <color name="material_light_blue_700">#1a87c8</color>
+    <color name="material_light_blue_800">#0277bd</color>
+    <color name="material_light_blue_900">#00579b</color>
+    <color name="material_light_blue_A100">#85d5f7</color>
+    <color name="material_light_blue_A200">#56c0ed</color>
+    <color name="material_light_blue_A400">#44a9df</color>
+    <color name="material_light_blue_A700">#398bca</color>
+
+
+
+
+</resources>
